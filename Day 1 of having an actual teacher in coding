@@ -1,1 +1,15 @@
 ## Today, clear weather. The teacher was pretty nice, had a style that was understanding enough. day 1 was teaching about pythons variables, elif and import features. 
+
+import random
+
+angka_rahasia = random.randint(1,3)
+
+while True:
+    tebakan = int(input("Tebak angka (1-3):"))
+    if tebakan == angka_rahasia:
+        print("Hurray")
+    
+    elif tebakan < angka_rahasia:
+        print("terlalu kecil")
+    else:
+        print("terlalu besar")
